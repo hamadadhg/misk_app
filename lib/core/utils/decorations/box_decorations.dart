@@ -33,9 +33,12 @@ abstract class BoxDecorations {
 
   static BoxDecoration boxDecorationToSurahCardQuranView({
     required BuildContext context,
+    required bool isPortrait,
   }) {
     return BoxDecoration(
-      borderRadius: Circular.radius10(context: context),
+      borderRadius: isPortrait == false
+          ? Circular.radius20(context: context)
+          : Circular.radius10(context: context),
       border: Border.all(color: StyleToColors.mediumOliveGreenColor),
     );
   }

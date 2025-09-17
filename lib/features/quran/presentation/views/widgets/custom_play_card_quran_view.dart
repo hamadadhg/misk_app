@@ -9,8 +9,12 @@ class CustomPlayCardQuranView extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     double height = MediaQuery.sizeOf(context).height;
+    final orientation = MediaQuery.of(context).orientation;
+    //orientation to know what the position for device(vertical or horizontal)
+    final isPortrait = orientation == Orientation.portrait;
+    //boolean to ask about position the device if it is vertical
     return Container(
-      height: height * 0.084,
+      height: isPortrait == false ? height * 0.125 : height * 0.084,
       margin: SymmetricPaddingWithoutChild.horizontal25(context: context),
       decoration: BoxDecorations.boxDecorationToPlayCardQuranView(
         context: context,

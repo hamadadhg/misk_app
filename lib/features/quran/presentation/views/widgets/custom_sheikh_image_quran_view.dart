@@ -13,11 +13,17 @@ class CustomSheikhImageQuranView extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     Size size = MediaQuery.sizeOf(context);
+    final orientation = MediaQuery.of(context).orientation;
+    //orientation to know what the position for device(vertical or horizontal)
+    final isPortrait = orientation == Orientation.portrait;
+    //boolean to ask about position the device if it is vertical
     return SizedBox(
       height: size.height * heightPercent,
       width: size.width * widthPercent,
       child: ClipRRect(
-        borderRadius: Circular.radius15(context: context),
+        borderRadius: isPortrait == false
+            ? Circular.radius25(context: context)
+            : Circular.radius15(context: context),
         child: widget,
       ),
     );

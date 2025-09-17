@@ -19,6 +19,10 @@ class _CustomContainPlayCardQuranViewState
   ); //default image on play card
   @override
   Widget build(BuildContext context) {
+    final orientation = MediaQuery.of(context).orientation;
+    //orientation to know what the position for device(vertical or horizontal)
+    final isPortrait = orientation == Orientation.portrait;
+    //boolean to ask about position the device if it is vertical
     return Row(
       mainAxisAlignment: MainAxisAlignment.center,
       children: [
@@ -26,9 +30,9 @@ class _CustomContainPlayCardQuranViewState
         const CustomThreeImagesInPlayCardQuranView(),
         SizedBoxWidth.width40(context: context),
         CustomSheikhImageQuranView(
-          heightPercent: 0.07,
-          widthPercent: 0.134,
-          widget: Assets.images.sheikhMasharyImage.image(),
+          heightPercent: isPortrait == false ? 0.11 : 0.07,
+          widthPercent: isPortrait == false ? 0.11 : 0.134,
+          widget: Assets.images.sheikhMasharyImage.image(fit: BoxFit.fill),
         ),
       ],
     );

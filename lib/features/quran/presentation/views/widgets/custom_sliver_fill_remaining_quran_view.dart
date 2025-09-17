@@ -19,6 +19,7 @@ class CustomSliverFillRemainingQuranView extends StatelessWidget {
           if (isAppearPlayCard)
             const CustomPlayCardAndHeightSizedBoxQuranView(),
           const BlackAndWhiteDividerComponent(blackOrWhite: 'black'),
+          SizedBoxHeight.height10(context: context),
         ],
       ),
     );
