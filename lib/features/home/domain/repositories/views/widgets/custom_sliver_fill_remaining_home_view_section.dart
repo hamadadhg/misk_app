@@ -11,7 +11,7 @@ class CustomSliverFillRemainingHomeViewSection extends StatelessWidget {
       hasScrollBody: false,
       child: Column(
         children: [
-          SizedBoxHeight.heightExpanded,
+          Expanded(child: SizedBoxHeight.height15(context: context)),
           const BlackAndWhiteDividerComponent(blackOrWhite: 'black'),
           SizedBoxHeight.height10(context: context),
         ],

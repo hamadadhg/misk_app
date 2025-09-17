@@ -10,13 +10,21 @@ class CustomSliverGridHomeViewSection extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     Size size = MediaQuery.sizeOf(context);
+    final orientation = MediaQuery.of(context).orientation;
+    //orientation to know what the position for device(vertical or horizontal)
+    final isPortrait = orientation == Orientation.portrait;
+    //boolean to ask about position the device if it is vertical
     return SymmetricPaddingWithChild.sliverHorizontal30(
       context: context,
       sliver: SliverGrid.builder(
         gridDelegate: SliverGridDelegateWithFixedCrossAxisCount(
           crossAxisCount: 3,
-          crossAxisSpacing: size.width * 0.02,
-          mainAxisSpacing: size.height * 0.014,
+          crossAxisSpacing: isPortrait == false
+              ? size.width * 0.05
+              : size.width * 0.02,
+          mainAxisSpacing: isPortrait == false
+              ? size.height * 0.028
+              : size.height * 0.014,
         ),
         itemCount: elementsMoreIslamicBenefitHomeViewList.length,
         itemBuilder: (context, index) {

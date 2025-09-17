@@ -11,10 +11,14 @@ class CustomQuranCardHomeView extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     double height = MediaQuery.sizeOf(context).height;
+    final orientation = MediaQuery.of(context).orientation;
+    //orientation to know what the position for device(vertical or horizontal)
+    final isPortrait = orientation == Orientation.portrait;
+    //boolean to ask about position the device if it is vertical
     return GestureDetector(
       onTap: () => pushGoRouterHelper(context: context, view: kQuranViewRouter),
       child: Container(
-        height: height * 0.084,
+        height: height * (isPortrait == false ? 0.168 : 0.084),
         margin: SymmetricPaddingWithoutChild.horizontal30(context: context),
         padding: SymmetricPaddingWithoutChild.horizontal20(context: context),
         decoration: BoxDecorations.boxDecorationToQuranCardHomeView(

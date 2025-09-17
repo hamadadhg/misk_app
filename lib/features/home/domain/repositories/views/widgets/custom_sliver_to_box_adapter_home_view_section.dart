@@ -32,15 +32,25 @@ class _CustomSliverToBoxAdapterHomeViewSectionState
 
   @override
   Widget build(BuildContext context) {
+    final orientation = MediaQuery.of(context).orientation;
+    //orientation to know what the position for device(vertical or horizontal)
+    final isPortrait = orientation == Orientation.portrait;
+    //boolean to ask about position the device if it is vertical
     return SliverToBoxAdapter(
       child: Column(
         children: [
           if (latitudeLocation != null && longiudeLocation != null)
             const CustomTimeCardHomeView(),
           //if there is location(the user clicked on determined the location button) so build TimeCard
-          SizedBoxHeight.height15(context: context),
+          isPortrait == false
+              //if the position not vertical so take 30 else take 15
+              ? SizedBoxHeight.height30(context: context)
+              : SizedBoxHeight.height15(context: context),
           const CustomQuranCardHomeView(),
-          SizedBoxHeight.height10(context: context),
+          isPortrait == false
+              //if the position not vertical so take 20 else take 10
+              ? SizedBoxHeight.height20(context: context)
+              : SizedBoxHeight.height10(context: context),
         ],
       ),
     );
