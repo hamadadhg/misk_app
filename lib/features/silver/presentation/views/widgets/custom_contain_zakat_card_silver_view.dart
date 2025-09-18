@@ -13,6 +13,10 @@ class CustomContainZakatCardSilverView extends StatelessWidget {
   final void Function() onPressed;
   @override
   Widget build(BuildContext context) {
+    final orientation = MediaQuery.of(context).orientation;
+    //orientation to know what the position for device(vertical or horizontal)
+    final isPortrait = orientation == Orientation.portrait;
+    //boolean to ask about position the device if it is vertical
     return Column(
       children: [
         TextWithAlignUpTextFormFieldZakatCardComponent(
@@ -21,7 +25,9 @@ class CustomContainZakatCardSilverView extends StatelessWidget {
           textInputType: TextInputType.phone,
           textEditingController: textEditingControllerSilverWeight,
         ),
-        SizedBoxHeight.height10(context: context),
+        isPortrait == false
+            ? SizedBoxHeight.height20(context: context)
+            : SizedBoxHeight.height10(context: context),
         CalculateTextButtonComponent(onPressed: onPressed),
       ],
     );
