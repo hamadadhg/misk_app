@@ -14,7 +14,7 @@ class CustomSliverFillRemainingZakatView extends StatelessWidget {
         children: [
           SizedBoxHeight.height10(context: context),
           const CustomCoinCardZakatView(),
-          SizedBoxHeight.heightExpanded,
+          Expanded(child: SizedBoxHeight.height15(context: context)),
           const BlackAndWhiteDividerComponent(blackOrWhite: 'black'),
           SizedBoxHeight.height10(context: context),
         ],

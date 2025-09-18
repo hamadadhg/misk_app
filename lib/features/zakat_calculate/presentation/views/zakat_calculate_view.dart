@@ -9,4 +9,3 @@ class ZakatCalculateView extends StatelessWidget {
     return const Scaffold(body: CustomZakatCalculateViewBody());
   }
 }
-//api key: sk_C97C254a383463CE46dE709a4e21B595DEBBB29f78e05555

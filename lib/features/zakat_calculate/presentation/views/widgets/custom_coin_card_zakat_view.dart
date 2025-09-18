@@ -11,8 +11,12 @@ class CustomCoinCardZakatView extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     double height = MediaQuery.sizeOf(context).height;
+    final orientation = MediaQuery.of(context).orientation;
+    //orientation to know what the position for device(vertical or horizontal)
+    final isPortrait = orientation == Orientation.portrait;
+    //boolean to ask about position the device if it is vertical
     return SizedBox(
-      height: height * 0.09,
+      height: height * (isPortrait == false ? 0.16 : 0.09),
       child: GestureDetector(
         onTap: () =>
             pushGoRouterHelper(context: context, view: kCoinsBoxViewRouter),
