@@ -85,24 +85,34 @@ class _CustomQiblaViewBodyState extends State<CustomQiblaViewBody> {
 
   @override
   Widget build(BuildContext context) {
-    return Column(
-      children: [
-        SizedBoxHeight.height25(context: context),
-        const AppBarImageAndTextAndDividerComponent(text: 'القبلة'),
-        SizedBoxHeight.height25(context: context),
-        const CustomTwoTextsQiblaView(),
-        SizedBoxHeight.height20(context: context),
-        if (latitude == null || longitude == null)
-          //if the user doesn't click on location button so will appear Text instead of bigQiblaImage
-          const CustomWarningQiblaDirectionQiblaView()
-        else
-          //if there is location to user so appear bigQiblaImage and rotate the image on direction the qibla
-          CustomQiblaImageQiblaView(qiblaDirection: qiblaDirection),
-        SizedBoxHeight.height25(context: context),
-        const CustomTextNormal18QiblaView(text: 'السهم يشير الى اتجاه القبلة'),
-        SizedBoxHeight.heightExpanded,
-        const BlackAndWhiteDividerComponent(blackOrWhite: 'black'),
-        SizedBoxHeight.height10(context: context),
+    return CustomScrollView(
+      physics: const BouncingScrollPhysics(),
+      slivers: [
+        SliverFillRemaining(
+          hasScrollBody: false,
+          child: Column(
+            children: [
+              SizedBoxHeight.height25(context: context),
+              const AppBarImageAndTextAndDividerComponent(text: 'القبلة'),
+              SizedBoxHeight.height25(context: context),
+              const CustomTwoTextsQiblaView(),
+              SizedBoxHeight.height20(context: context),
+              if (latitude == null || longitude == null)
+                //if the user doesn't click on location button so will appear Text instead of bigQiblaImage
+                const CustomWarningQiblaDirectionQiblaView()
+              else
+                //if there is location to user so appear bigQiblaImage and rotate the image on direction the qibla
+                CustomQiblaImageQiblaView(qiblaDirection: qiblaDirection),
+              SizedBoxHeight.height25(context: context),
+              const CustomTextNormal18QiblaView(
+                text: 'السهم يشير الى اتجاه القبلة',
+              ),
+              Expanded(child: SizedBoxHeight.height15(context: context)),
+              const BlackAndWhiteDividerComponent(blackOrWhite: 'black'),
+              SizedBoxHeight.height10(context: context),
+            ],
+          ),
+        ),
       ],
     );
   }
