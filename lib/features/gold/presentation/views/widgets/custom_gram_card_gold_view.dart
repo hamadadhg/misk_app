@@ -9,13 +9,18 @@ class CustomGramCardGoldView extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     Size size = MediaQuery.sizeOf(context);
+    final orientation = MediaQuery.of(context).orientation;
+    //orientation to know what the position for device(vertical or horizontal)
+    final isPortrait = orientation == Orientation.portrait;
+    //boolean to ask about position the device if it is vertical
     return Container(
       alignment: Alignment.center,
       margin: OnlyPaddingWithoutChild.left10(context: context),
       width: size.width * 0.08,
-      height: size.height * 0.035,
+      height: size.height * (isPortrait == false ? 0.07 : 0.035),
       decoration: BoxDecorations.boxDecorationToGramCardGoldView(
         context: context,
+        isPortrait: isPortrait,
       ),
       child: Text(
         'جرام',

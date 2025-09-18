@@ -105,10 +105,13 @@ abstract class BoxDecorations {
 
   static BoxDecoration boxDecorationToGramCardGoldView({
     required BuildContext context,
+    required bool isPortrait,
   }) {
     return BoxDecoration(
       color: StyleToColors.littleGreyColor,
-      borderRadius: Circular.radius5(context: context),
+      borderRadius: isPortrait
+          ? Circular.radius5(context: context)
+          : Circular.radius10(context: context),
     );
   }
 

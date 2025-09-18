@@ -12,6 +12,10 @@ class CustomWeightGoldZakatCardGoldView extends StatelessWidget {
   final TextEditingController textEditingController;
   @override
   Widget build(BuildContext context) {
+    final orientation = MediaQuery.of(context).orientation;
+    //orientation to know what the position for device(vertical or horizontal)
+    final isPortrait = orientation == Orientation.portrait;
+    //boolean to ask about position the device if it is vertical
     return OnlyPaddingWithChild.right5AndLeft20(
       context: context,
       child: TextFormField(
@@ -29,7 +33,7 @@ class CustomWeightGoldZakatCardGoldView extends StatelessWidget {
         ).copyWith(color: StyleToColors.deeepGreyColor),
         decoration: InputDecorations.inputDecorationWeightGoldZakatCardGoldView(
           context: context,
-          isPortrait: false,
+          isPortrait: isPortrait,
         ),
       ),
     );
