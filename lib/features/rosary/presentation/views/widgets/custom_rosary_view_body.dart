@@ -30,25 +30,33 @@ class _CustomRosaryViewBodyState extends State<CustomRosaryViewBody> {
 
   @override
   Widget build(BuildContext context) {
-    return Column(
-      children: [
-        SizedBoxHeight.height25(context: context),
-        const AppBarImageAndTextAndDividerComponent(text: 'السبحة'),
-        SizedBoxHeight.height25(context: context),
-        CustomRemembrancesRosaryCardRosaryView(
-          onSelected: resetCounterWhenChooseNewText,
-          selectedValue: selectedValue,
+    return CustomScrollView(
+      physics: const BouncingScrollPhysics(),
+      slivers: [
+        SliverFillRemaining(
+          hasScrollBody: false,
+          child: Column(
+            children: [
+              SizedBoxHeight.height25(context: context),
+              const AppBarImageAndTextAndDividerComponent(text: 'السبحة'),
+              SizedBoxHeight.height25(context: context),
+              CustomRemembrancesRosaryCardRosaryView(
+                onSelected: resetCounterWhenChooseNewText,
+                selectedValue: selectedValue,
+              ),
+              //now when the user choose new text from menu so the counter will reset
+              SizedBoxHeight.height25(context: context),
+              CustomCounterRosaryCardRosaryView(
+                counter: incrementCounter,
+                onIncrement: incrementMethod,
+              ),
+              //now you take it method to increment value the parameter when the user click on circle, and you give you parameter value because when the user choose new element from menu so should the counter reset
+              Expanded(child: SizedBoxHeight.height15(context: context)),
+              const BlackAndWhiteDividerComponent(blackOrWhite: 'black'),
+              SizedBoxHeight.height10(context: context),
+            ],
+          ),
         ),
-        //now when the user choose new text from menu so the counter will reset
-        SizedBoxHeight.height25(context: context),
-        CustomCounterRosaryCardRosaryView(
-          counter: incrementCounter,
-          onIncrement: incrementMethod,
-        ),
-        //now you take it method to increment value the parameter when the user click on circle, and you give you parameter value because when the user choose new element from menu so should the counter reset
-        SizedBoxHeight.heightExpanded,
-        const BlackAndWhiteDividerComponent(blackOrWhite: 'black'),
-        SizedBoxHeight.height10(context: context),
       ],
     );
   }

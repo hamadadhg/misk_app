@@ -16,6 +16,10 @@ class CustomCardRemembrancesView extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     double height = MediaQuery.sizeOf(context).height;
+    final orientation = MediaQuery.of(context).orientation;
+    //orientation to know what the position for device(vertical or horizontal)
+    final isPortrait = orientation == Orientation.portrait;
+    //boolean to ask about position the device if it is vertical
     return GestureDetector(
       onTap: () {
         pushGoRouterHelper(
@@ -25,7 +29,7 @@ class CustomCardRemembrancesView extends StatelessWidget {
         );
       },
       child: SizedBox(
-        height: height * 0.077,
+        height: height * (isPortrait == false ? 0.14 : 0.077),
         child: Card(
           color: StyleToColors.whiteColor,
           elevation: 0,

@@ -47,36 +47,44 @@ class _CustomDisplayDoaaViewBodyState extends State<CustomDisplayDoaaViewBody> {
       default:
         displayDoaasList = [];
     }
-    return Column(
-      children: [
-        SizedBoxHeight.height25(context: context),
-        AppBarAndTextTypeDisplayViewSectionComponent(
-          textTypeDisplayView: item,
-          textAppBar: 'الدعاء',
-        ),
-        SizedBoxHeight.height25(context: context),
-        Expanded(
-          child: CardInsideItImageAndChooseAndDividerDisplayViewComponent(
-            currentIndex: currentIndex,
-            totalLength: displayDoaasList.length,
-            onNext: () {
-              if (currentIndex < displayDoaasList.length - 1) {
-                setState(() => currentIndex++);
-              }
-            },
-            onBack: () {
-              if (currentIndex > 0) {
-                setState(() => currentIndex--);
-              }
-            },
-            child: Text(
-              displayDoaasList[currentIndex],
-              textDirection: TextDirection.rtl,
-              style: StyleToTexts.textStyleNormal22(context: context),
-            ),
+    return CustomScrollView(
+      physics: const BouncingScrollPhysics(),
+      slivers: [
+        SliverFillRemaining(
+          hasScrollBody: false,
+          child: Column(
+            children: [
+              SizedBoxHeight.height25(context: context),
+              AppBarAndTextTypeDisplayViewSectionComponent(
+                textTypeDisplayView: item,
+                textAppBar: 'الدعاء',
+              ),
+              SizedBoxHeight.height25(context: context),
+              Expanded(
+                child: CardInsideItImageAndChooseAndDividerDisplayViewComponent(
+                  currentIndex: currentIndex,
+                  totalLength: displayDoaasList.length,
+                  onNext: () {
+                    if (currentIndex < displayDoaasList.length - 1) {
+                      setState(() => currentIndex++);
+                    }
+                  },
+                  onBack: () {
+                    if (currentIndex > 0) {
+                      setState(() => currentIndex--);
+                    }
+                  },
+                  child: Text(
+                    displayDoaasList[currentIndex],
+                    textDirection: TextDirection.rtl,
+                    style: StyleToTexts.textStyleNormal22(context: context),
+                  ),
+                ),
+              ),
+              SizedBoxHeight.height10(context: context),
+            ],
           ),
         ),
-        SizedBoxHeight.height10(context: context),
       ],
     );
   }

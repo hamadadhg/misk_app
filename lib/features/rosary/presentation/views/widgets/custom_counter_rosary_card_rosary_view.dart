@@ -13,11 +13,15 @@ class CustomCounterRosaryCardRosaryView extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     Size size = MediaQuery.sizeOf(context);
+    final orientation = MediaQuery.of(context).orientation;
+    //orientation to know what the position for device(vertical or horizontal)
+    final isPortrait = orientation == Orientation.portrait;
+    //boolean to ask about position the device if it is vertical
     return GestureDetector(
       onTap: onIncrement,
       child: Container(
         width: size.width * 0.66,
-        height: size.height * 0.37,
+        height: size.height * (isPortrait == false ? 0.7 : 0.37),
         alignment: Alignment.center,
         decoration: BoxDecorations.boxDecorationCounterRosaryCardRosaryView(),
         child: Text(

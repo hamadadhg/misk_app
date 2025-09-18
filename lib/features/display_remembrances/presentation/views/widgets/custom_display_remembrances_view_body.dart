@@ -60,35 +60,43 @@ class _CustomDisplayRemembrancesViewBodyState
       default:
         displayRemembrancesList = [];
     }
-    return Column(
-      children: [
-        SizedBoxHeight.height25(context: context),
-        AppBarImageAndTextAndDividerComponent(text: item),
-        SizedBoxHeight.height25(context: context),
-        ChooseOptionFromClickOnRightOrLeftArrowComponent(
-          currentIndex: currentIndex,
-          totalLength: displayRemembrancesList.length,
-          onNext: () {
-            if (currentIndex < displayRemembrancesList.length - 1) {
-              //while currentIndex smaller than displayRemembrancesList, example(1, 2, 3,..,9 < 10), length - 1 because index work from 0 to 9
-              setState(() => currentIndex++);
-            }
-          },
-          onBack: () {
-            if (currentIndex > 0) {
-              //while currentIndex not negative so minus
-              setState(() => currentIndex--);
-            }
-          },
+    return CustomScrollView(
+      physics: const BouncingScrollPhysics(),
+      slivers: [
+        SliverFillRemaining(
+          hasScrollBody: false,
+          child: Column(
+            children: [
+              SizedBoxHeight.height25(context: context),
+              AppBarImageAndTextAndDividerComponent(text: item),
+              SizedBoxHeight.height25(context: context),
+              ChooseOptionFromClickOnRightOrLeftArrowComponent(
+                currentIndex: currentIndex,
+                totalLength: displayRemembrancesList.length,
+                onNext: () {
+                  if (currentIndex < displayRemembrancesList.length - 1) {
+                    //while currentIndex smaller than displayRemembrancesList, example(1, 2, 3,..,9 < 10), length - 1 because index work from 0 to 9
+                    setState(() => currentIndex++);
+                  }
+                },
+                onBack: () {
+                  if (currentIndex > 0) {
+                    //while currentIndex not negative so minus
+                    setState(() => currentIndex--);
+                  }
+                },
+              ),
+              SizedBoxHeight.height25(context: context),
+              CustomCardTextsRemembrancesAndCircleRemembrancesView(
+                displayRemembrancesList: displayRemembrancesList,
+                currentIndex: currentIndex,
+              ),
+              SizedBoxHeight.heightExpanded,
+              const BlackAndWhiteDividerComponent(blackOrWhite: 'black'),
+              SizedBoxHeight.height10(context: context),
+            ],
+          ),
         ),
-        SizedBoxHeight.height25(context: context),
-        CustomCardTextsRemembrancesAndCircleRemembrancesView(
-          displayRemembrancesList: displayRemembrancesList,
-          currentIndex: currentIndex,
-        ),
-        SizedBoxHeight.heightExpanded,
-        const BlackAndWhiteDividerComponent(blackOrWhite: 'black'),
-        SizedBoxHeight.height10(context: context),
       ],
     );
   }

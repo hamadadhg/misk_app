@@ -48,35 +48,43 @@ class _CustomDisplayHadithViewBodyState
       default:
         displayHadithsList = [];
     }
-    return Column(
-      children: [
-        SizedBoxHeight.height25(context: context),
-        AppBarAndTextTypeDisplayViewSectionComponent(
-          textTypeDisplayView: item,
-          textAppBar: 'الحديث النبوي',
-        ),
-        SizedBoxHeight.height25(context: context),
-        Expanded(
-          child: CardInsideItImageAndChooseAndDividerDisplayViewComponent(
-            currentIndex: currentIndex,
-            totalLength: displayHadithsList.length,
-            onNext: () {
-              if (currentIndex < displayHadithsList.length - 1) {
-                setState(() => currentIndex++);
-              }
-            },
-            onBack: () {
-              if (currentIndex > 0) {
-                setState(() => currentIndex--);
-              }
-            },
-            child: CustomFullTextsInsideCardDisplayHadithView(
-              displayHadithsList: displayHadithsList,
-              currentIndex: currentIndex,
-            ),
+    return CustomScrollView(
+      physics: const BouncingScrollPhysics(),
+      slivers: [
+        SliverFillRemaining(
+          hasScrollBody: false,
+          child: Column(
+            children: [
+              SizedBoxHeight.height25(context: context),
+              AppBarAndTextTypeDisplayViewSectionComponent(
+                textTypeDisplayView: item,
+                textAppBar: 'الحديث النبوي',
+              ),
+              SizedBoxHeight.height25(context: context),
+              Expanded(
+                child: CardInsideItImageAndChooseAndDividerDisplayViewComponent(
+                  currentIndex: currentIndex,
+                  totalLength: displayHadithsList.length,
+                  onNext: () {
+                    if (currentIndex < displayHadithsList.length - 1) {
+                      setState(() => currentIndex++);
+                    }
+                  },
+                  onBack: () {
+                    if (currentIndex > 0) {
+                      setState(() => currentIndex--);
+                    }
+                  },
+                  child: CustomFullTextsInsideCardDisplayHadithView(
+                    displayHadithsList: displayHadithsList,
+                    currentIndex: currentIndex,
+                  ),
+                ),
+              ),
+              SizedBoxHeight.height10(context: context),
+            ],
           ),
         ),
-        SizedBoxHeight.height10(context: context),
       ],
     );
   }
