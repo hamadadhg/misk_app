@@ -16,6 +16,10 @@ class CustomMiddleMoneyViewSection extends StatelessWidget {
   final double price;
   @override
   Widget build(BuildContext context) {
+    final orientation = MediaQuery.of(context).orientation;
+    //orientation to know what the position for device(vertical or horizontal)
+    final isPortrait = orientation == Orientation.portrait;
+    //boolean to ask about position the device if it is vertical
     return Column(
       children: [
         BackgroundZakatCardComponent(
@@ -24,7 +28,9 @@ class CustomMiddleMoneyViewSection extends StatelessWidget {
             textEditingController: textEditingController,
           ),
         ),
-        SizedBoxHeight.height20(context: context),
+        isPortrait == false
+            ? SizedBoxHeight.height30(context: context)
+            : SizedBoxHeight.height20(context: context),
         TextAndPriceCardComponent(price: price),
       ],
     );

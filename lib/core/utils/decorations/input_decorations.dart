@@ -9,6 +9,7 @@ abstract class InputDecorations {
   static InputDecoration inputDecorationZakatCardComponent({
     required BuildContext context,
     required String hintText,
+    required bool isPortrait,
   }) {
     return InputDecoration(
       fillColor: StyleToColors.whiteColor,
@@ -16,6 +17,7 @@ abstract class InputDecorations {
       filled: true,
       border: outlineInputBorderCalculateZakatCardZakatViewHelper(
         context: context,
+        isPortrait: isPortrait,
       ),
       prefixIconConstraints: const BoxConstraints(minHeight: 0, minWidth: 0),
       //prefixIconConstraints: to control on size the prefixIcon(any widget in prefix place), because i want to give GramCard fixed size(height and width less that 48 height and 48 width)
@@ -29,6 +31,7 @@ abstract class InputDecorations {
 
   static InputDecoration inputDecorationWeightGoldZakatCardGoldView({
     required BuildContext context,
+    required bool isPortrait,
   }) {
     return InputDecoration(
       fillColor: StyleToColors.whiteColor,
@@ -36,6 +39,7 @@ abstract class InputDecorations {
       filled: true,
       border: outlineInputBorderCalculateZakatCardZakatViewHelper(
         context: context,
+        isPortrait: isPortrait,
       ),
       prefixIcon: const CustomGramCardGoldView(),
       prefixIconConstraints: const BoxConstraints(minHeight: 0, minWidth: 0),
@@ -51,6 +55,7 @@ abstract class InputDecorations {
   static InputDecoration inputDecorationDropdownFormFieldGoldView({
     required BuildContext context,
     required String text,
+    required bool isPortrait,
   }) {
     return InputDecoration(
       prefix: CustomPrefixFormFieldGoldView(text: text),
@@ -58,6 +63,7 @@ abstract class InputDecorations {
       filled: true,
       border: outlineInputBorderCalculateZakatCardZakatViewHelper(
         context: context,
+        isPortrait: isPortrait,
       ),
     );
   }

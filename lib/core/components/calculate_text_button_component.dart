@@ -9,14 +9,20 @@ class CalculateTextButtonComponent extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     Size size = MediaQuery.sizeOf(context);
+    final orientation = MediaQuery.of(context).orientation;
+    //orientation to know what the position for device(vertical or horizontal)
+    final isPortrait = orientation == Orientation.portrait;
+    //boolean to ask about position the device if it is vertical
     return SizedBox(
-      height: size.height * 0.056,
+      height: size.height * (isPortrait == false ? 0.1 : 0.056),
       width: size.width * 0.3,
       child: TextButton(
         style: TextButton.styleFrom(
           backgroundColor: StyleToColors.oliveGreenColor,
           shape: RoundedRectangleBorder(
-            borderRadius: Circular.radius8(context: context),
+            borderRadius: isPortrait == false
+                ? Circular.radius15(context: context)
+                : Circular.radius8(context: context),
           ),
         ),
         onPressed: onPressed,

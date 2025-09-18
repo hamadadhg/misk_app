@@ -28,6 +28,7 @@ class _CustomDropdownButtonFormFieldGoldViewState
         ).copyWith(color: StyleToColors.deeepGreyColor),
         decoration: InputDecorations.inputDecorationDropdownFormFieldGoldView(
           context: context,
+          isPortrait: false,
           text: selectedValue,
         ),
         icon: SizedBoxHeight.heightShrink,

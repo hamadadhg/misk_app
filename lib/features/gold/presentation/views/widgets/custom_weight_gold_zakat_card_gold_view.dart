@@ -29,6 +29,7 @@ class CustomWeightGoldZakatCardGoldView extends StatelessWidget {
         ).copyWith(color: StyleToColors.deeepGreyColor),
         decoration: InputDecorations.inputDecorationWeightGoldZakatCardGoldView(
           context: context,
+          isPortrait: false,
         ),
       ),
     );

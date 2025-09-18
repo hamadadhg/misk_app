@@ -16,6 +16,10 @@ class TextFormFieldZakatCardComponent extends StatelessWidget {
   final TextInputType textInputType;
   @override
   Widget build(BuildContext context) {
+    final orientation = MediaQuery.of(context).orientation;
+    //orientation to know what the position for device(vertical or horizontal)
+    final isPortrait = orientation == Orientation.portrait;
+    //boolean to ask about position the device if it is vertical
     return OnlyPaddingWithChild.right5AndLeft20(
       context: context,
       child: TextFormField(
@@ -34,6 +38,7 @@ class TextFormFieldZakatCardComponent extends StatelessWidget {
         decoration: InputDecorations.inputDecorationZakatCardComponent(
           context: context,
           hintText: hintText,
+          isPortrait: isPortrait == false,
         ),
       ),
     );
