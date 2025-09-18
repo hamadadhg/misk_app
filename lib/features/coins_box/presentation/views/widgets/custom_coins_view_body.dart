@@ -27,6 +27,10 @@ class _CustomCoinsViewBodyState extends State<CustomCoinsViewBody> {
 
   @override
   Widget build(BuildContext context) {
+    final orientation = MediaQuery.of(context).orientation;
+    //orientation to know what the position for device(vertical or horizontal)
+    final isPortrait = orientation == Orientation.portrait;
+    //boolean to ask about position the device if it is vertical
     return CustomScrollView(
       slivers: [
         SliverFillRemaining(
@@ -61,7 +65,9 @@ class _CustomCoinsViewBodyState extends State<CustomCoinsViewBody> {
                     }
                   },
                 ),
-                SizedBoxHeight.height20(context: context),
+                isPortrait == false
+                    ? SizedBoxHeight.height30(context: context)
+                    : SizedBoxHeight.height20(context: context),
                 Expanded(
                   child: CustomBottomCoinsViewSection(price: zakatCoinBox),
                 ),
