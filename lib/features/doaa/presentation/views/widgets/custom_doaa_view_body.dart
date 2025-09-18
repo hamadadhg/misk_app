@@ -9,15 +9,23 @@ class CustomDoaaViewBody extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return Column(
-      children: [
-        SizedBoxHeight.height25(context: context),
-        const AppBarImageAndTextAndDividerComponent(text: 'الدعاء'),
-        SizedBoxHeight.height25(context: context),
-        const CustomGenerateCardsDoaaView(),
-        SizedBoxHeight.heightExpanded,
-        const BlackAndWhiteDividerComponent(blackOrWhite: 'black'),
-        SizedBoxHeight.height10(context: context),
+    return CustomScrollView(
+      physics: const BouncingScrollPhysics(),
+      slivers: [
+        SliverFillRemaining(
+          hasScrollBody: false,
+          child: Column(
+            children: [
+              SizedBoxHeight.height25(context: context),
+              const AppBarImageAndTextAndDividerComponent(text: 'الدعاء'),
+              SizedBoxHeight.height25(context: context),
+              const CustomGenerateCardsDoaaView(),
+              Expanded(child: SizedBoxHeight.height15(context: context)),
+              const BlackAndWhiteDividerComponent(blackOrWhite: 'black'),
+              SizedBoxHeight.height10(context: context),
+            ],
+          ),
+        ),
       ],
     );
   }
