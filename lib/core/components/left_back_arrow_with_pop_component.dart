@@ -7,9 +7,14 @@ class LeftBackArrowWithPopComponent extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
+    Size size = MediaQuery.sizeOf(context);
     return GestureDetector(
       onTap: () => popGoRouterHelper(context: context),
-      child: Assets.images.leftBackArrowImage.image(),
+      child: SizedBox(
+        height: size.height * 0.056,
+        width: size.width * 0.095,
+        child: Assets.images.leftBackArrowImage.image(),
+      ),
     );
   }
 }
