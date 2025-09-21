@@ -86,6 +86,10 @@ class $AssetsImagesGen {
   AssetGenImage get moonImage =>
       const AssetGenImage('assets/images/moon_image.png');
 
+  /// File path: assets/images/mosque_and_persons_image.png
+  AssetGenImage get mosqueAndPersonsImage =>
+      const AssetGenImage('assets/images/mosque_and_persons_image.png');
+
   /// File path: assets/images/mosque_image.png
   AssetGenImage get mosqueImage =>
       const AssetGenImage('assets/images/mosque_image.png');
@@ -185,6 +189,7 @@ class $AssetsImagesGen {
     mohammadMessengerImage,
     moneyImage,
     moonImage,
+    mosqueAndPersonsImage,
     mosqueImage,
     personPrayImage,
     planeImage,
