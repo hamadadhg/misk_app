@@ -23,7 +23,7 @@ class CustomCoinCardZakatView extends StatelessWidget {
         child: Card(
           margin: SymmetricPaddingWithoutChild.horizontal30(context: context),
           color: StyleToColors.whiteColor,
-          child: const CustomContainCoinCardZakatView(),
+          child: const Center(child: CustomContainCoinCardZakatView()),
         ),
       ),
     );
