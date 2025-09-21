@@ -2,7 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:misk/core/utils/shared/app_shared_preferences.dart';
 import 'package:misk/core/utils/sized/sized_box_height.dart';
 import 'package:misk/features/home/domain/repositories/views/widgets/custom_quran_card_home_view.dart';
-import 'package:misk/features/home/domain/repositories/views/widgets/custom_time_card_home_view.dart';
+import 'package:misk/features/home/domain/repositories/views/widgets/custom_stack_time_card_and_image_home_view.dart';
 
 class CustomSliverToBoxAdapterHomeViewSection extends StatefulWidget {
   const CustomSliverToBoxAdapterHomeViewSection({super.key});
@@ -40,7 +40,7 @@ class _CustomSliverToBoxAdapterHomeViewSectionState
       child: Column(
         children: [
           if (latitudeLocation != null && longiudeLocation != null)
-            const CustomTimeCardHomeView(),
+            const CustomStackTimeCardAndImageHomeView(),
           //if there is location(the user clicked on determined the location button) so build TimeCard
           isPortrait == false
               //if the position not vertical so take 30 else take 15
