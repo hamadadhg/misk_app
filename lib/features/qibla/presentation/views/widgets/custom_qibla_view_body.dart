@@ -8,7 +8,6 @@ import 'package:misk/core/utils/shared/app_shared_preferences.dart';
 import 'package:misk/core/utils/sized/sized_box_height.dart';
 import 'package:misk/features/qibla/presentation/views/widgets/custom_qibla_image_qibla_view.dart';
 import 'package:misk/features/qibla/presentation/views/widgets/custom_text_normal18_qibla_view.dart';
-import 'package:misk/features/qibla/presentation/views/widgets/custom_two_texts_qibla_view.dart';
 import 'package:misk/features/qibla/presentation/views/widgets/custom_warning_qibla_direction_qibla_view.dart';
 
 class CustomQiblaViewBody extends StatefulWidget {
@@ -95,7 +94,7 @@ class _CustomQiblaViewBodyState extends State<CustomQiblaViewBody> {
               SizedBoxHeight.height25(context: context),
               const AppBarImageAndTextAndDividerComponent(text: 'القبلة'),
               SizedBoxHeight.height25(context: context),
-              const CustomTwoTextsQiblaView(),
+              const CustomTextNormal18QiblaView(text: 'اتجاه القبلة'),
               SizedBoxHeight.height20(context: context),
               if (latitude == null || longitude == null)
                 //if the user doesn't click on location button so will appear Text instead of bigQiblaImage
