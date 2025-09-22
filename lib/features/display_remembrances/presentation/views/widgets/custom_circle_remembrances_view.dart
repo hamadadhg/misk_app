@@ -5,7 +5,7 @@ import 'package:misk/core/utils/styles/style_to_texts.dart';
 
 class CustomCircleRemembrancesView extends StatelessWidget {
   const CustomCircleRemembrancesView({super.key, required this.currentIndex});
-  final int currentIndex;
+  final String currentIndex;
   @override
   Widget build(BuildContext context) {
     Size size = MediaQuery.sizeOf(context);
@@ -17,7 +17,7 @@ class CustomCircleRemembrancesView extends StatelessWidget {
         context: context,
       ),
       child: Text(
-        currentIndex.toString(),
+        currentIndex,
         style: StyleToTexts.textStyleNormal18(
           context: context,
         ).copyWith(color: StyleToColors.whiteColor),

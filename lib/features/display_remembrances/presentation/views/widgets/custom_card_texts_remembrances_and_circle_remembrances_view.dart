@@ -9,8 +9,9 @@ class CustomCardTextsRemembrancesAndCircleRemembrancesView
     super.key,
     required this.displayRemembrancesList,
     required this.currentIndex,
+    required this.displayRepeatRemembrancesList,
   });
-  final List<String> displayRemembrancesList;
+  final List<String> displayRemembrancesList, displayRepeatRemembrancesList;
   final int currentIndex;
   @override
   Widget build(BuildContext context) {
@@ -28,7 +29,9 @@ class CustomCardTextsRemembrancesAndCircleRemembrancesView
         ),
         Positioned(
           bottom: -height * 0.056,
-          child: CustomCircleRemembrancesView(currentIndex: currentIndex + 1),
+          child: CustomCircleRemembrancesView(
+            currentIndex: displayRepeatRemembrancesList[currentIndex],
+          ),
         ),
       ],
     );
