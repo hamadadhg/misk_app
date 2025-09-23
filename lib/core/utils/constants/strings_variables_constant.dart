@@ -69,3 +69,7 @@ const String kQuranAudioDataSourcesBox = 'quranAudioDataSourcesBox';
 
 const String kFullUrlAudioQuranApi =
     'https://mp3quran.net/api/v3/reciters?language=ar';
+
+const String kBridgeBetweenFlutterAndAndroid = 'bridgeBetweenFlutterAndAndroid';
+
+const String kScheduleNotifications = 'scheduleNotifications';

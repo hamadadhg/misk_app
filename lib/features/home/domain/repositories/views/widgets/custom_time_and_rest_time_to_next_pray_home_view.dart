@@ -5,6 +5,7 @@ import 'package:misk/core/utils/constants/durations_variables_constant.dart';
 import 'package:misk/core/utils/helpers/arabic_prayer_name_helper.dart';
 import 'package:misk/core/utils/helpers/notifications_helper.dart';
 import 'package:misk/core/utils/helpers/number_with_two_places_for_hour_and_minute_helper.dart';
+import 'package:misk/core/utils/services/notifications_service.dart';
 import 'package:misk/core/utils/shared/app_shared_preferences.dart';
 import 'package:misk/core/utils/styles/style_to_colors.dart';
 import 'package:misk/core/utils/styles/style_to_texts.dart';
@@ -43,11 +44,12 @@ class _CustomTimeAndRestTimeToNextPrayHomeViewState
       calculationParameters,
     );
     //this lines to give you times for all prays
+    NotificationsService.schedulePrayerNotifications(prayerTime: prayerTimes!);
+    //you call notification method sure after get on PrayerTimes
     updateUI();
     timer = Timer.periodic(kOneMinute, (_) => updateUI());
     //do update after all 1 minute
-    schedulePrayerNotifications();
-    //you call notification method sure after get on PrayerTimes
+    // schedulePrayerNotifications();
   }
 
   void updateUI() {
