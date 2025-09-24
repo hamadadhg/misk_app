@@ -21,7 +21,7 @@
         android:fullBackupContent="false"
         android:label="مسك"
         android:name="${applicationName}"
-        android:icon="@mipmap/misk_logo_image">
+        android:icon="@mipmap/logo_misk_image">
 
         <!-- flutter_local_notifications receivers -->
         <receiver

@@ -3,7 +3,6 @@ import 'package:adhan/adhan.dart';
 import 'package:flutter/material.dart';
 import 'package:misk/core/utils/constants/durations_variables_constant.dart';
 import 'package:misk/core/utils/helpers/arabic_prayer_name_helper.dart';
-import 'package:misk/core/utils/helpers/notifications_helper.dart';
 import 'package:misk/core/utils/helpers/number_with_two_places_for_hour_and_minute_helper.dart';
 import 'package:misk/core/utils/services/notifications_service.dart';
 import 'package:misk/core/utils/shared/app_shared_preferences.dart';
@@ -49,7 +48,6 @@ class _CustomTimeAndRestTimeToNextPrayHomeViewState
     updateUI();
     timer = Timer.periodic(kOneMinute, (_) => updateUI());
     //do update after all 1 minute
-    // schedulePrayerNotifications();
   }
 
   void updateUI() {
