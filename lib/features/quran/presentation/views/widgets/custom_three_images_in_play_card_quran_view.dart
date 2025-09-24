@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
 import 'package:misk/core/components/text_error_state_component.dart';
+import 'package:misk/core/utils/helpers/show_snack_bar_helper.dart';
 import 'package:misk/core/utils/sized/sized_box_width.dart';
 import 'package:misk/core/utils/styles/style_to_colors.dart';
 import 'package:misk/features/quran/presentation/cubits/quran_audio_cubit/quran_audio_cubit.dart';
@@ -37,6 +38,7 @@ class CustomThreeImagesInPlayCardQuranView extends StatelessWidget {
                         .pauseAudioMethodInCubit();
                   } else {
                     // If stopped or initial → play
+                    showSnackBarHelper(context: context);
                     await context
                         .read<QuranAudioCubit>()
                         .playAudioMethodInCubit();
