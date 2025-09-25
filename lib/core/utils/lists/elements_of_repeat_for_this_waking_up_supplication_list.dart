@@ -1,3 +1,4 @@
+/*
 final List<String> elementsOfRepeatForThisWakingUpSupplicationList = [
   '3',
   '3',
@@ -10,3 +11,4 @@ final List<String> elementsOfRepeatForThisWakingUpSupplicationList = [
   '1',
   '1',
 ];
+*/

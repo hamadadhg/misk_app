@@ -1,3 +1,4 @@
+/*
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
 import 'package:misk/core/components/loading_state_component.dart';
@@ -113,3 +114,4 @@ class _CustomGoldViewBodyState extends State<CustomGoldViewBody> {
     );
   }
 }
+*/

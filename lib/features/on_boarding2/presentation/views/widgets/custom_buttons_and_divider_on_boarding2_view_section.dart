@@ -1,3 +1,4 @@
+/*
 import 'package:flutter/material.dart';
 import 'package:geolocator/geolocator.dart';
 import 'package:misk/core/components/black_divider_component.dart';
@@ -42,3 +43,4 @@ class CustomButtonsAndDividerOnBoarding2ViewSection extends StatelessWidget {
     );
   }
 }
+*/

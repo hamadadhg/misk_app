@@ -1,3 +1,4 @@
+/*
 import 'dart:async';
 import 'package:flutter/material.dart';
 import 'package:hijri/hijri_calendar.dart';
@@ -71,3 +72,4 @@ class _CustomDayAndLocationTextsHomeViewState
     );
   }
 }
+*/

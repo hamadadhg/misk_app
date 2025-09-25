@@ -1,3 +1,4 @@
+/*
 import 'package:flutter/material.dart';
 import 'package:misk/core/components/app_bar_image_and_text_and_divider_component.dart';
 import 'package:misk/core/components/text_with_align_and_padding_component.dart';
@@ -23,3 +24,4 @@ class CustomHeaderGoldViewSection extends StatelessWidget {
     );
   }
 }
+*/

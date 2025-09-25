@@ -1,3 +1,4 @@
+/*
 import 'package:flutter/material.dart';
 import 'package:misk/core/components/app_bar_image_and_text_and_divider_component.dart';
 import 'package:misk/core/utils/sized/sized_box_height.dart';
@@ -24,3 +25,4 @@ class CustomSliverToBoxAdapterZakatView extends StatelessWidget {
     );
   }
 }
+*/

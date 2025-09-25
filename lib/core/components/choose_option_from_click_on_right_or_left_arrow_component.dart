@@ -1,3 +1,4 @@
+/*
 import 'package:flutter/material.dart';
 import 'package:misk/core/utils/sized/sized_box_width.dart';
 import 'package:misk/core/utils/styles/style_to_texts.dart';
@@ -36,3 +37,4 @@ class ChooseOptionFromClickOnRightOrLeftArrowComponent extends StatelessWidget {
     );
   }
 }
+*/

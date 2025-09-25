@@ -1,3 +1,4 @@
+/*
 final List<String> elementsOfRemembrancesAboutMosQueRemembrancesList = [
   'اللّهُمَّ اجعل صلاتي خالصة لوجهك الكريم.',
   'اللّهُمَّ اجعلني من الذين يستمعون القول فيتبعون أحسنه.',
@@ -10,3 +11,4 @@ final List<String> elementsOfRemembrancesAboutMosQueRemembrancesList = [
   'اللّهُمَّ اجعلني من الذين يخرجون من المسجد وهم أفضل حالًا مما دخلوا.',
   'اللّهُمَّ اجعل صلاتي وسعيي في المسجد مقبولًا عندك، واغفر لي ما قدمت وما أخرت.',
 ];
+*/

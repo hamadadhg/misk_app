@@ -1,3 +1,4 @@
+/*
 final List<Map<String, dynamic>> elementsOfHadithAboutMoralsList = [
   {
     'hadith': 'قال رسول الله ﷺ: «إنما بُعِثتُ لأُتَمِّمَ صالحَ الأخلاق».',
@@ -67,3 +68,4 @@ final List<Map<String, dynamic>> elementsOfHadithAboutMoralsList = [
     'source': 'المصدر: صحيح مسلم (2594).',
   },
 ];
+*/

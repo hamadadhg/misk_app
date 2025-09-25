@@ -1,3 +1,4 @@
+/*
 final List<String> elementsOfRepeatForThisMosqueRemembrancesList = [
   '1',
   '1',
@@ -10,3 +11,4 @@ final List<String> elementsOfRepeatForThisMosqueRemembrancesList = [
   '3',
   '1',
 ];
+*/

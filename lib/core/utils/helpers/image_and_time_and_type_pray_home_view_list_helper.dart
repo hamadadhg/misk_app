@@ -1,3 +1,4 @@
+/*
 import 'package:adhan/adhan.dart';
 import 'package:misk/core/components/svg_image_component.dart';
 import 'package:misk/core/utils/helpers/format_to_arabic_number_helper.dart';
@@ -43,3 +44,4 @@ List<Map<String, dynamic>> imageAndTimeAndTypePrayHomeViewListHelper({
     },
   ];
 }
+*/

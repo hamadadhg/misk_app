@@ -1,3 +1,4 @@
+/*
 int quranSurahToReturnNumberItHelper({required String surahName}) {
   late int surahNumber;
   switch (surahName) {
@@ -348,3 +349,4 @@ int quranSurahToReturnNumberItHelper({required String surahName}) {
   }
   return surahNumber;
 }
+*/

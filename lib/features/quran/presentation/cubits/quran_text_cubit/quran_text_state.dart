@@ -1,3 +1,4 @@
+/*
 abstract class QuranTextState {}
 
 class QuranTextInitialState extends QuranTextState {}
@@ -13,3 +14,4 @@ class QuranTextFailureState extends QuranTextState {
   final String errorMessageInCubit;
   QuranTextFailureState({required this.errorMessageInCubit});
 }
+*/

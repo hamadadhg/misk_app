@@ -1,3 +1,4 @@
+/*
 import 'package:flutter/material.dart';
 import 'package:misk/features/quran/presentation/views/widgets/custom_leading_list_tile_quran_view.dart';
 import 'package:misk/features/quran/presentation/views/widgets/custom_subtitle_list_tile_quran_view.dart';
@@ -21,3 +22,4 @@ class CustomListTileQuranView extends StatelessWidget {
     );
   }
 }
+*/

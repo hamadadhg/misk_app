@@ -1,3 +1,4 @@
+/*
 final List<String> elementsCardsHadithViewList = [
   'عن نعيم الجنه',
   'عن الاخلاق',
@@ -6,3 +7,4 @@ final List<String> elementsCardsHadithViewList = [
   'عن يوم الجمعة',
   'عن فضل العمل',
 ];
+*/

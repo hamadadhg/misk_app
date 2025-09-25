@@ -1,3 +1,4 @@
+/*
 import 'package:flutter/material.dart';
 import 'package:misk/core/utils/styles/style_to_texts.dart';
 import 'package:misk/gen/assets.gen.dart';
@@ -19,3 +20,4 @@ class CustomContainCoinCardZakatView extends StatelessWidget {
     );
   }
 }
+*/

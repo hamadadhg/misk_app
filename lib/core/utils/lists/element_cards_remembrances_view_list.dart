@@ -1,3 +1,4 @@
+/*
 import 'package:misk/core/components/svg_image_component.dart';
 import 'package:misk/core/utils/styles/style_to_colors.dart';
 import 'package:misk/gen/assets.gen.dart';
@@ -17,3 +18,4 @@ final List<Map<String, dynamic>> elementCardsRemembrancesViewList = [
   },
   {'text': 'اذكار الصلاه', 'image': Assets.images.personPrayImage.image()},
 ];
+*/

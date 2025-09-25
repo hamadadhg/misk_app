@@ -1,3 +1,4 @@
+/*
 import 'package:flutter/material.dart';
 import 'package:misk/core/utils/sized/sized_box_width.dart';
 import 'package:misk/features/quran/presentation/views/widgets/custom_sheikh_image_quran_view.dart';
@@ -38,3 +39,4 @@ class _CustomContainPlayCardQuranViewState
     );
   }
 }
+*/

@@ -1,3 +1,4 @@
+/*
 import 'package:flutter/material.dart';
 
 abstract class StyleToColors {
@@ -17,3 +18,4 @@ abstract class StyleToColors {
   static const Color redColor = Colors.red;
   static const Color blueColor = Colors.blue;
 }
+*/

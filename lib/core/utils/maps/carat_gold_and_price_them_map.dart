@@ -1,3 +1,4 @@
+/*
 import 'package:misk/features/gold/domain/entity/gold_entity.dart';
 
 Map<String, dynamic> caratsGoldAndPriceThemMap({
@@ -14,3 +15,4 @@ Map<String, dynamic> caratsGoldAndPriceThemMap({
     '١٠': goldEntity.priceGoldCarat10,
   };
 }
+*/

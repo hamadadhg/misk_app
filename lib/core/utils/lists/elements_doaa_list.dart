@@ -1,3 +1,4 @@
+/*
 final List<String> elementsDoaaList = [
   'عن الرزق',
   'عن الستر',
@@ -6,3 +7,4 @@ final List<String> elementsDoaaList = [
   'عن عدم النسيان',
   'عن تسهيل الأمر',
 ];
+*/

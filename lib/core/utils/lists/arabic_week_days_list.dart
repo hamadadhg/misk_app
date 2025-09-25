@@ -1,3 +1,4 @@
+/*
 final Map<int, String> arabicDayList = {
   1: 'الاثنين',
   2: 'الثلاثاء',
@@ -7,3 +8,4 @@ final Map<int, String> arabicDayList = {
   6: 'السبت',
   7: 'الأحد',
 };
+*/

@@ -1,3 +1,4 @@
+/*
 import 'package:flutter/material.dart';
 import 'package:misk/core/components/app_bar_image_and_text_and_divider_component.dart';
 import 'package:misk/core/components/black_divider_component.dart';
@@ -32,3 +33,4 @@ class CustomHadithViewBody extends StatelessWidget {
     );
   }
 }
+*/

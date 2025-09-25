@@ -1,3 +1,4 @@
+/*
 import 'package:flutter_bloc/flutter_bloc.dart';
 import 'package:just_audio/just_audio.dart';
 import 'package:misk/core/utils/constants/durations_variables_constant.dart';
@@ -89,3 +90,4 @@ class QuranAudioCubit extends Cubit<QuranAudioState> {
     return super.close();
   }
 }
+*/

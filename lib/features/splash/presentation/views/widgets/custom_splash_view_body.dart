@@ -1,3 +1,4 @@
+/*
 import 'package:flutter/material.dart';
 import 'package:misk/core/components/black_divider_component.dart';
 import 'package:misk/core/utils/constants/durations_variables_constant.dart';
@@ -68,3 +69,4 @@ class _CustomSplashViewBodyState extends State<CustomSplashViewBody>
     animationController.forward();
   }
 }
+*/

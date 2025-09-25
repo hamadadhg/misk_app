@@ -1,3 +1,4 @@
+/*
 import 'package:flutter/material.dart';
 import 'package:misk/core/components/left_back_arrow_with_pop_component.dart';
 import 'package:misk/core/components/svg_image_component.dart';
@@ -32,3 +33,4 @@ class CustomAppBarQuranView extends StatelessWidget {
     );
   }
 }
+*/

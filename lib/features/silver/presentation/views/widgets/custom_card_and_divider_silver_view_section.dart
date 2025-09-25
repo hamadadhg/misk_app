@@ -1,3 +1,4 @@
+/*
 import 'package:flutter/material.dart';
 import 'package:misk/core/components/background_zakat_card_component.dart';
 import 'package:misk/core/components/black_divider_component.dart';
@@ -40,3 +41,4 @@ class CustomCardAndDividerSilverViewSection extends StatelessWidget {
     );
   }
 }
+*/

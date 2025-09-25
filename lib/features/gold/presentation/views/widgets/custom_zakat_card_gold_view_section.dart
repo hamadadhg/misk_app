@@ -1,3 +1,4 @@
+/*
 import 'package:flutter/material.dart';
 import 'package:misk/core/components/background_zakat_card_component.dart';
 import 'package:misk/core/components/calculate_text_button_component.dart';
@@ -37,3 +38,4 @@ class CustomZakatCardGoldViewSection extends StatelessWidget {
     );
   }
 }
+*/

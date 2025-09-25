@@ -1,3 +1,4 @@
+/*
 import 'package:flutter/material.dart';
 import 'package:misk/core/utils/sized/sized_box_height.dart';
 import 'package:misk/core/utils/styles/style_to_colors.dart';
@@ -33,3 +34,4 @@ class CustomImageAndTimeAndTypePrayHomeView extends StatelessWidget {
     );
   }
 }
+*/

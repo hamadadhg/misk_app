@@ -1,3 +1,4 @@
+/*
 import 'package:flutter/material.dart';
 import 'package:misk/core/utils/constants/strings_variables_constant.dart';
 import 'package:misk/core/utils/helpers/go_go_router_helper.dart';
@@ -22,3 +23,4 @@ class SkipTextButtonComponent extends StatelessWidget {
     );
   }
 }
+*/

@@ -1,3 +1,4 @@
+/*
 import 'package:flutter/material.dart';
 import 'package:misk/features/rosary/presentation/views/widgets/custom_rosary_view_body.dart';
 
@@ -9,3 +10,4 @@ class RosaryView extends StatelessWidget {
     return const Scaffold(body: CustomRosaryViewBody());
   }
 }
+*/

@@ -1,3 +1,4 @@
+/*
 import 'package:flutter/material.dart';
 import 'package:misk/features/arrows/presentation/views/widgets/custom_arrows_view_body.dart';
 
@@ -9,3 +10,4 @@ class ArrowsView extends StatelessWidget {
     return const Scaffold(body: CustomArrowsViewBody());
   }
 }
+*/

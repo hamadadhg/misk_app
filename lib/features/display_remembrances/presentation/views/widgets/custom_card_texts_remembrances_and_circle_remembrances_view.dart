@@ -1,3 +1,4 @@
+/*
 import 'package:flutter/material.dart';
 import 'package:misk/core/utils/styles/style_to_texts.dart';
 import 'package:misk/features/display_remembrances/presentation/views/widgets/custom_circle_remembrances_view.dart';
@@ -37,3 +38,4 @@ class CustomCardTextsRemembrancesAndCircleRemembrancesView
     );
   }
 }
+*/

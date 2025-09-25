@@ -1,3 +1,4 @@
+/*
 import 'package:flutter/material.dart';
 import 'package:misk/core/components/text_form_field_zakat_card_component.dart';
 import 'package:misk/core/components/text_with_align_up_field_component.dart';
@@ -29,3 +30,4 @@ class TextWithAlignUpTextFormFieldZakatCardComponent extends StatelessWidget {
     );
   }
 }
+*/

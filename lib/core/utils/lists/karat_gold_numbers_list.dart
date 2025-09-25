@@ -1,3 +1,4 @@
+/*
 final List<String> karatGoldNumbersList = [
   '١٠',
   '١٤',
@@ -8,3 +9,4 @@ final List<String> karatGoldNumbersList = [
   '٢٢',
   '٢٤',
 ];
+*/

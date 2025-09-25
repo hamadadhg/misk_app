@@ -1,3 +1,4 @@
+/*
 final List<Map<String, dynamic>> elementsOfHadithAboutFridayList = [
   {
     'hadith':
@@ -70,3 +71,4 @@ final List<Map<String, dynamic>> elementsOfHadithAboutFridayList = [
     'source': 'المصدر: صحيح البخاري (935)، وصحيح مسلم (852).',
   },
 ];
+*/

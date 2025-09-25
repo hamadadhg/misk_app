@@ -1,3 +1,4 @@
+/*
 import 'dart:math';
 import 'package:flutter/material.dart';
 import 'package:flutter_compass/flutter_compass.dart';
@@ -30,3 +31,4 @@ class CustomQiblaImageQiblaView extends StatelessWidget {
     );
   }
 }
+*/

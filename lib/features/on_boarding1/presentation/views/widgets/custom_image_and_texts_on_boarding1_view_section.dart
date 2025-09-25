@@ -1,3 +1,4 @@
+/*
 import 'package:flutter/material.dart';
 import 'package:misk/core/components/image_and_text_and_generate_texts_component.dart';
 import 'package:misk/core/utils/lists/intro_texts_to_the_app_list.dart';
@@ -16,3 +17,4 @@ class CustomImageAndTextsOnBoarding1ViewSection extends StatelessWidget {
     );
   }
 }
+*/

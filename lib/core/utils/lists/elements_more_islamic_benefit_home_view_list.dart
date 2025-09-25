@@ -1,3 +1,4 @@
+/*
 import 'package:misk/core/utils/constants/strings_variables_constant.dart';
 import 'package:misk/gen/assets.gen.dart';
 
@@ -33,3 +34,4 @@ final List<Map<String, dynamic>> elementsMoreIslamicBenefitHomeViewList = [
     'view': kRosaryViewRouter,
   },
 ];
+*/

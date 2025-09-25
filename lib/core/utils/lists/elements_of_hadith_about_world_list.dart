@@ -1,3 +1,4 @@
+/*
 final List<Map<String, dynamic>> elementsOfHadithAboutWorldList = [
   {
     'hadith': 'قال رسول الله ﷺ: «الدنيا سِجنُ المؤمنِ، وجنَّةُ الكافر».',
@@ -68,3 +69,4 @@ final List<Map<String, dynamic>> elementsOfHadithAboutWorldList = [
     'source': 'المصدر: سنن الترمذي (2377)، وصححه الألباني.',
   },
 ];
+*/

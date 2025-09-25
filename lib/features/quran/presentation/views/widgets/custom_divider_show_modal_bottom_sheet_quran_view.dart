@@ -1,3 +1,4 @@
+/*
 import 'package:flutter/material.dart';
 import 'package:misk/core/utils/styles/style_to_colors.dart';
 
@@ -14,3 +15,4 @@ class CustomDividerShowModalBottomSheetQuranView extends StatelessWidget {
     );
   }
 }
+*/

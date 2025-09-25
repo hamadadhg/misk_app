@@ -1,5 +1,5 @@
+/*
 import 'dart:math';
-
 import 'package:misk/core/utils/constants/doubles_variables_constant.dart';
 import 'package:misk/core/utils/helpers/to_degree_helper.dart';
 import 'package:misk/core/utils/helpers/to_radians_helper.dart';
@@ -23,3 +23,4 @@ double calculateQiblaDirectionHelper({
   return (toDegreesHelper(bearing) + 360) % 360;
   //so this is some calculate operations(change to radian and to degree, use sin cos, tan) after this operations you will get on qibla direcation based on current location to user
 }
+*/

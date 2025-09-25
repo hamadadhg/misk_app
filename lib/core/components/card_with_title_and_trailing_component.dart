@@ -1,3 +1,4 @@
+/*
 import 'package:flutter/material.dart';
 import 'package:misk/core/utils/padding/padding_without_child/only_padding_without_child.dart';
 import 'package:misk/core/utils/styles/style_to_colors.dart';
@@ -34,3 +35,4 @@ class CardWithTitleAndTrailingComponent extends StatelessWidget {
     );
   }
 }
+*/

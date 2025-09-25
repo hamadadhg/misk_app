@@ -1,3 +1,4 @@
+/*
 import 'package:flutter/material.dart';
 import 'package:misk/core/utils/padding/padding_with_child/only_padding_with_child.dart';
 import 'package:misk/core/utils/styles/style_to_texts.dart';
@@ -19,3 +20,4 @@ class TextWithAlignAndPaddingComponent extends StatelessWidget {
     );
   }
 }
+*/

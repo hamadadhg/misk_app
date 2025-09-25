@@ -1,3 +1,4 @@
+/*
 final List<String> elementsOfRemembrancesToRosaryViewList = [
   'سبحان الله',
   'الحمدلله',
@@ -6,3 +7,4 @@ final List<String> elementsOfRemembrancesToRosaryViewList = [
   'لا حول ولا قوة إلا بالله',
   'اللهم صلي على النبي',
 ];
+*/

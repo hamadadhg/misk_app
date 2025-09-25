@@ -1,9 +1,10 @@
+/*
 import 'package:adhan/adhan.dart';
 import 'package:flutter/material.dart';
 import 'package:misk/core/components/loading_state_component.dart';
 import 'package:misk/core/utils/helpers/image_and_time_and_type_pray_home_view_list_helper.dart';
 import 'package:misk/core/utils/shared/app_shared_preferences.dart';
-import 'package:misk/features/home/domain/repositories/views/widgets/custom_image_and_time_and_type_pray_home_view.dart';
+import 'package:misk/features/home/presentation/views/widgets/custom_image_and_time_and_type_pray_home_view.dart';
 
 class CustomGenerateImagesAndTimesAndTypePraysHomeView extends StatefulWidget {
   const CustomGenerateImagesAndTimesAndTypePraysHomeView({super.key});
@@ -65,3 +66,4 @@ class _CustomGenerateImagesAndTimesAndTypePraysHomeViewState
     );
   }
 }
+*/

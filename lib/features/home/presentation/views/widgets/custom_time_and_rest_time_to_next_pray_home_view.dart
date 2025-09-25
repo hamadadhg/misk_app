@@ -1,3 +1,4 @@
+/*
 import 'dart:async';
 import 'package:adhan/adhan.dart';
 import 'package:flutter/material.dart';
@@ -114,3 +115,4 @@ class _CustomTimeAndRestTimeToNextPrayHomeViewState
     );
   }
 }
+*/

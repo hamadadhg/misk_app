@@ -1,3 +1,4 @@
+/*
 import 'package:flutter/material.dart';
 
 class LoadingStateComponent extends StatelessWidget {
@@ -8,3 +9,4 @@ class LoadingStateComponent extends StatelessWidget {
     return const Center(child: CircularProgressIndicator());
   }
 }
+*/

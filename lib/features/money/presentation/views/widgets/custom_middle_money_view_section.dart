@@ -1,3 +1,4 @@
+/*
 import 'package:flutter/material.dart';
 import 'package:misk/core/components/background_zakat_card_component.dart';
 import 'package:misk/core/components/text_and_price_card_component.dart';
@@ -36,3 +37,4 @@ class CustomMiddleMoneyViewSection extends StatelessWidget {
     );
   }
 }
+*/

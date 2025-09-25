@@ -1,3 +1,4 @@
+/*
 import 'package:flutter/material.dart';
 import 'package:misk/features/splash/presentation/views/widgets/custom_splash_view_body.dart';
 
@@ -9,3 +10,4 @@ class SplashView extends StatelessWidget {
     return const Scaffold(body: CustomSplashViewBody());
   }
 }
+*/

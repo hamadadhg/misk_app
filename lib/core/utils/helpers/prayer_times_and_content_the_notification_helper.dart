@@ -1,3 +1,4 @@
+/*
 import 'package:adhan/adhan.dart';
 
 List<Map<String, dynamic>> prayerTimesAndContentTheNotificationHelper({
@@ -36,3 +37,4 @@ List<Map<String, dynamic>> prayerTimesAndContentTheNotificationHelper({
     },
   ];
 }
+*/

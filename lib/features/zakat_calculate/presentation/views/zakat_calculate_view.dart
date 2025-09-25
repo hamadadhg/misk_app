@@ -1,3 +1,4 @@
+/*
 import 'package:flutter/material.dart';
 import 'package:misk/features/zakat_calculate/presentation/views/widgets/custom_zakat_calculate_view_body.dart';
 
@@ -9,3 +10,4 @@ class ZakatCalculateView extends StatelessWidget {
     return const Scaffold(body: CustomZakatCalculateViewBody());
   }
 }
+*/

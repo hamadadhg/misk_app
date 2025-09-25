@@ -1,3 +1,4 @@
+/*
 final List<Map<String, dynamic>> elementsOfHadithAboutPatienceList = [
   {
     'hadith': 'قال رسول الله ﷺ: «وما أُعطيَ أحدٌ عطاءً خيرًا وأوسعَ من الصبر».',
@@ -67,3 +68,4 @@ final List<Map<String, dynamic>> elementsOfHadithAboutPatienceList = [
     'source': 'المصدر: صحيح البخاري (6470)، وصحيح مسلم (1053).',
   },
 ];
+*/

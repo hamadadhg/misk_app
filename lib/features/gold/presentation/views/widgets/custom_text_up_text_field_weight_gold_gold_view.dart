@@ -1,3 +1,4 @@
+/*
 import 'package:flutter/material.dart';
 import 'package:misk/core/components/text_with_align_up_field_component.dart';
 import 'package:misk/core/utils/sized/sized_box_height.dart';
@@ -22,3 +23,4 @@ class CustomTextUpTextFieldWeightGoldGoldView extends StatelessWidget {
     );
   }
 }
+*/

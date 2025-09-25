@@ -1,3 +1,4 @@
+/*
 import 'package:flutter/material.dart';
 import 'package:misk/core/components/skip_text_button_component.dart';
 import 'package:misk/core/components/text_inside_card_from_text_button_component.dart';
@@ -29,3 +30,4 @@ class SkipButtonAndTextInsideCardButtonComponent extends StatelessWidget {
     );
   }
 }
+*/

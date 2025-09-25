@@ -1,7 +1,8 @@
+/*
 import 'package:flutter/material.dart';
 import 'package:misk/core/utils/decorations/box_decorations.dart';
 import 'package:misk/core/utils/padding/padding_without_child/only_padding_without_child.dart';
-import 'package:misk/features/home/domain/repositories/views/widgets/custom_contain_card_more_islamic_benefit_home_view.dart';
+import 'package:misk/features/home/presentation/views/widgets/custom_contain_card_more_islamic_benefit_home_view.dart';
 
 class CustomCardMoreIslamicBenefitHomeView extends StatelessWidget {
   const CustomCardMoreIslamicBenefitHomeView({
@@ -27,3 +28,4 @@ class CustomCardMoreIslamicBenefitHomeView extends StatelessWidget {
     );
   }
 }
+*/

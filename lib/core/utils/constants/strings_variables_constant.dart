@@ -1,3 +1,4 @@
+/*
 const String kSplashViewRouter = '/';
 
 const String kOneBoarding1ViewRouter = '/OnBoarding1View';
@@ -73,3 +74,4 @@ const String kFullUrlAudioQuranApi =
 const String kBridgeBetweenFlutterAndAndroid = 'bridgeBetweenFlutterAndAndroid';
 
 const String kScheduleNotifications = 'scheduleNotifications';
+*/

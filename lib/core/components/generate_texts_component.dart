@@ -1,3 +1,4 @@
+/*
 import 'package:flutter/material.dart';
 import 'package:misk/core/components/text_normal14_component.dart';
 
@@ -19,3 +20,4 @@ class GenerateTextsComponent extends StatelessWidget {
     );
   }
 }
+*/

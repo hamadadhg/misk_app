@@ -1,3 +1,4 @@
+/*
 import 'package:flutter/material.dart';
 import 'package:misk/features/gold/presentation/views/widgets/custom_gold_view_body.dart';
 
@@ -9,3 +10,4 @@ class GoldView extends StatelessWidget {
     return const Scaffold(body: CustomGoldViewBody());
   }
 }
+*/

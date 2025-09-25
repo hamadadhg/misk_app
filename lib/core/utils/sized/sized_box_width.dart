@@ -1,3 +1,4 @@
+/*
 import 'package:flutter/widgets.dart';
 
 abstract class SizedBoxWidth {
@@ -32,3 +33,4 @@ abstract class SizedBoxWidth {
     return SizedBox(width: width * 0.22);
   }
 }
+*/

@@ -1,3 +1,4 @@
+/*
 import 'package:flutter/material.dart';
 import 'package:misk/core/utils/lists/elements_card_zakat_view_list.dart';
 import 'package:misk/core/utils/padding/padding_with_child/symmetric_padding_with_child.dart';
@@ -30,3 +31,4 @@ class CustomSliverGridZakatView extends StatelessWidget {
     );
   }
 }
+*/

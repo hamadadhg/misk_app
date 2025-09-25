@@ -1,8 +1,9 @@
+/*
 import 'package:flutter/material.dart';
 import 'package:misk/core/utils/helpers/push_go_router_helper.dart';
 import 'package:misk/core/utils/lists/elements_more_islamic_benefit_home_view_list.dart';
 import 'package:misk/core/utils/padding/padding_with_child/symmetric_padding_with_child.dart';
-import 'package:misk/features/home/domain/repositories/views/widgets/custom_card_more_islamic_benefit_home_view.dart';
+import 'package:misk/features/home/presentation/views/widgets/custom_card_more_islamic_benefit_home_view.dart';
 
 class CustomSliverGridHomeViewSection extends StatelessWidget {
   const CustomSliverGridHomeViewSection({super.key});
@@ -42,3 +43,4 @@ class CustomSliverGridHomeViewSection extends StatelessWidget {
     );
   }
 }
+*/

@@ -1,3 +1,4 @@
+/*
 import 'package:misk/features/silver/domain/entity/silver_entity.dart';
 
 abstract class SilverState {}
@@ -15,3 +16,4 @@ class SilverFailureState extends SilverState {
   final String errorMessageInCubit;
   SilverFailureState({required this.errorMessageInCubit});
 }
+*/

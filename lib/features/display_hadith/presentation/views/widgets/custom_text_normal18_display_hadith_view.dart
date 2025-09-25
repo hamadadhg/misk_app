@@ -1,3 +1,4 @@
+/*
 import 'package:flutter/material.dart';
 import 'package:misk/core/utils/styles/style_to_texts.dart';
 
@@ -20,3 +21,4 @@ class CustomTextNormal18DisplayHadithView extends StatelessWidget {
     );
   }
 }
+*/

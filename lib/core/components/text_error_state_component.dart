@@ -1,3 +1,4 @@
+/*
 import 'package:flutter/material.dart';
 import 'package:misk/core/utils/styles/style_to_colors.dart';
 import 'package:misk/core/utils/styles/style_to_texts.dart';
@@ -18,3 +19,4 @@ class TextErrorStateComponent extends StatelessWidget {
     );
   }
 }
+*/

@@ -1,3 +1,4 @@
+/*
 import 'package:misk/features/gold/domain/entity/gold_entity.dart';
 
 class GoldModel extends GoldEntity {
@@ -42,3 +43,4 @@ class GoldModel extends GoldEntity {
     );
   }
 }
+*/

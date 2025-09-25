@@ -1,3 +1,4 @@
+/*
 final List<String> elementsOfRemembrancesAboutTravelRemembrancesList = [
   'بسم الله، توكلت على الله، ولا حول ولا قوة إلا بالله.',
   'اللّهُمَّ إنا نستودعك أنفسنا وأهلي ومالنا في سفرنا هذا، فاحفظنا برحمتك.',
@@ -10,3 +11,4 @@ final List<String> elementsOfRemembrancesAboutTravelRemembrancesList = [
   'اللّهُمَّ اجعل لنا في هذا السفر ذكرًا لك وعملاً صالحًا يقربنا منك.',
   'اللّهُمَّ اجعل السفر سهلاً ويسيرًا، وارزقنا السلامة والوصول إلى مرادنا برضاك.',
 ];
+*/

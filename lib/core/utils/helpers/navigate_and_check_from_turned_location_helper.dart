@@ -1,3 +1,4 @@
+/*
 import 'package:flutter/material.dart';
 import 'package:misk/core/utils/constants/strings_variables_constant.dart';
 import 'package:misk/core/utils/helpers/delayed_and_go_router_helper.dart';
@@ -10,3 +11,4 @@ Future<void> navigateAndCheckFromTurnLocationHelper({
   final targetView = turnedOn ? kHomeViewRouter : kOneBoarding1ViewRouter;
   delayedAndGoRouterHelper(context: context, view: targetView);
 }
+*/

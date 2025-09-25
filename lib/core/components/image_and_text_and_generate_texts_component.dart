@@ -1,3 +1,4 @@
+/*
 import 'package:flutter/material.dart';
 import 'package:misk/core/components/generate_texts_component.dart';
 import 'package:misk/core/components/text_semi_bold18_component.dart';
@@ -30,3 +31,4 @@ class ImageAndTextAndGenerateTextsComponent extends StatelessWidget {
     );
   }
 }
+*/

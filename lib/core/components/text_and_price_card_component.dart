@@ -1,3 +1,4 @@
+/*
 import 'package:flutter/material.dart';
 import 'package:misk/core/components/price_card_component.dart';
 import 'package:misk/core/utils/sized/sized_box_height.dart';
@@ -20,3 +21,4 @@ class TextAndPriceCardComponent extends StatelessWidget {
     );
   }
 }
+*/

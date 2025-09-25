@@ -1,3 +1,4 @@
+/*
 import 'package:flutter/material.dart';
 import 'package:misk/features/quran/presentation/views/widgets/custom_quran_view_body.dart';
 
@@ -9,3 +10,4 @@ class QuranView extends StatelessWidget {
     return const Scaffold(body: CustomQuranViewBody());
   }
 }
+*/

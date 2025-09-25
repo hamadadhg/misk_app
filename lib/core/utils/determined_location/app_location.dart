@@ -1,3 +1,4 @@
+/*
 import 'package:geolocator/geolocator.dart';
 
 abstract class AppLocation {
@@ -31,3 +32,4 @@ abstract class AppLocation {
     );
   }
 }
+*/

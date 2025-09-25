@@ -1,8 +1,9 @@
+/*
 import 'package:flutter/material.dart';
 import 'package:misk/core/utils/shared/app_shared_preferences.dart';
 import 'package:misk/core/utils/sized/sized_box_height.dart';
-import 'package:misk/features/home/domain/repositories/views/widgets/custom_quran_card_home_view.dart';
-import 'package:misk/features/home/domain/repositories/views/widgets/custom_stack_time_card_and_image_home_view.dart';
+import 'package:misk/features/home/presentation/views/widgets/custom_quran_card_home_view.dart';
+import 'package:misk/features/home/presentation/views/widgets/custom_stack_time_card_and_image_home_view.dart';
 
 class CustomSliverToBoxAdapterHomeViewSection extends StatefulWidget {
   const CustomSliverToBoxAdapterHomeViewSection({super.key});
@@ -56,3 +57,4 @@ class _CustomSliverToBoxAdapterHomeViewSectionState
     );
   }
 }
+*/

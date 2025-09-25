@@ -1,3 +1,4 @@
+/*
 import 'package:flutter/material.dart';
 import 'package:misk/gen/assets.gen.dart';
 
@@ -15,3 +16,4 @@ class CustomTwoImagesSplashView extends StatelessWidget {
     );
   }
 }
+*/

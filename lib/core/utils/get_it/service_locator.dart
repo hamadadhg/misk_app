@@ -1,3 +1,4 @@
+/*
 import 'package:dio/dio.dart';
 import 'package:get_it/get_it.dart';
 import 'package:misk/features/gold/data/repositories/gold_repositories_implementation.dart';
@@ -16,3 +17,4 @@ void setUp() {
     ),
   );
 }
+*/

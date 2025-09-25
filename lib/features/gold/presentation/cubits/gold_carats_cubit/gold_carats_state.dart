@@ -1,3 +1,4 @@
+/*
 import 'package:misk/features/gold/domain/entity/gold_entity.dart';
 
 class GoldCaratsState {}
@@ -15,3 +16,4 @@ class GoldCaratsFailureState extends GoldCaratsState {
   final String errorMessageInCubit;
   GoldCaratsFailureState({required this.errorMessageInCubit});
 }
+*/

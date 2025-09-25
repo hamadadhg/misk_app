@@ -1,3 +1,4 @@
+/*
 import 'package:flutter/material.dart';
 import 'package:misk/core/utils/styles/style_to_colors.dart';
 import 'package:misk/features/rosary/presentation/views/widgets/custom_contain_remembrances_rosary_card_rosary_view.dart';
@@ -30,3 +31,4 @@ class CustomRemembrancesRosaryCardRosaryView extends StatelessWidget {
     );
   }
 }
+*/

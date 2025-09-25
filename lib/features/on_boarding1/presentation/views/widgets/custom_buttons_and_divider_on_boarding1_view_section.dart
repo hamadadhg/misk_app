@@ -1,3 +1,4 @@
+/*
 import 'package:flutter/material.dart';
 import 'package:misk/core/components/black_divider_component.dart';
 import 'package:misk/core/components/skip_button_and_text_inside_card_button_component.dart';
@@ -24,3 +25,4 @@ class CustomButtonsAndDividerOnBoarding1ViewSection extends StatelessWidget {
     );
   }
 }
+*/

@@ -1,3 +1,4 @@
+/*
 import 'package:flutter/material.dart';
 import 'package:misk/core/utils/sized/sized_box_height.dart';
 import 'package:misk/features/arrows/presentation/views/widgets/custom_bottom_arrows_view_section.dart';
@@ -81,3 +82,4 @@ class _CustomArrowsViewBodyState extends State<CustomArrowsViewBody> {
     );
   }
 }
+*/

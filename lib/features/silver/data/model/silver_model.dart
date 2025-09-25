@@ -1,3 +1,4 @@
+/*
 import 'package:misk/features/silver/domain/entity/silver_entity.dart';
 
 class SilverModel extends SilverEntity {
@@ -12,3 +13,4 @@ class SilverModel extends SilverEntity {
     return SilverModel(priceSilverGram: pricePerGram);
   }
 }
+*/

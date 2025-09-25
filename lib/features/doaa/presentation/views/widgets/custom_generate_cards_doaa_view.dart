@@ -1,3 +1,4 @@
+/*
 import 'package:flutter/material.dart';
 import 'package:misk/core/components/card_with_title_and_trailing_component.dart';
 import 'package:misk/core/utils/constants/strings_variables_constant.dart';
@@ -26,3 +27,4 @@ class CustomGenerateCardsDoaaView extends StatelessWidget {
     );
   }
 }
+*/

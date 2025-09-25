@@ -1,3 +1,4 @@
+/*
 import 'package:flutter/material.dart';
 import 'package:go_router/go_router.dart';
 import 'package:misk/core/utils/lists/elements_of_hadith_about_friday_list.dart';
@@ -89,3 +90,4 @@ class _CustomDisplayHadithViewBodyState
     );
   }
 }
+*/

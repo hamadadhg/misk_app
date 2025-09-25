@@ -1,3 +1,4 @@
+/*
 import 'package:flutter/material.dart';
 import 'package:misk/core/utils/styles/style_to_texts.dart';
 
@@ -9,3 +10,4 @@ class CustomTitleListTileQuranView extends StatelessWidget {
     return Text(text, style: StyleToTexts.textStyleBold16(context: context));
   }
 }
+*/

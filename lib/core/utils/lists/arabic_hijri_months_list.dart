@@ -1,3 +1,4 @@
+/*
 final arabicHijriMonthsList = {
   1: 'محرم',
   2: 'صفر',
@@ -12,3 +13,4 @@ final arabicHijriMonthsList = {
   11: 'ذو القعدة',
   12: 'ذو الحجة',
 };
+*/

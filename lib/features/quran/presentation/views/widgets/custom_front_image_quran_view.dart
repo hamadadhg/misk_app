@@ -1,3 +1,4 @@
+/*
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
 import 'package:misk/features/quran/presentation/cubits/quran_audio_cubit/quran_audio_cubit.dart';
@@ -18,3 +19,4 @@ class CustomFrontImageQuranView extends StatelessWidget {
     );
   }
 }
+*/

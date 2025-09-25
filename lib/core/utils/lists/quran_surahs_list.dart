@@ -1,3 +1,4 @@
+/*
 final List<String> quranSurahsList = [
   'سورة الفاتحة',
   'سورة البقرة',
@@ -114,3 +115,4 @@ final List<String> quranSurahsList = [
   'سورة الفلق',
   'سورة الناس',
 ];
+*/

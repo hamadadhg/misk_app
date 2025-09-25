@@ -1,3 +1,4 @@
+/*
 import 'package:adhan/adhan.dart';
 import 'package:flutter/services.dart';
 import 'package:misk/core/utils/constants/strings_variables_constant.dart';
@@ -22,3 +23,4 @@ abstract class NotificationsService {
     }
   }
 }
+*/

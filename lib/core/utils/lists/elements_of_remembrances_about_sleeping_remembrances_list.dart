@@ -1,3 +1,4 @@
+/*
 final List<String> elementsOfRemembrancesAboutSleepingRemembrancesList = [
   'باسمك ربي وضعتُ جنبي، وبك أرفعه، فإن أمسكت نفسي فارحمها، وإن أرسلتها فاحفظها بما تحفظ عبادك الصالحين.',
   'اللّهُمَّ باسمك أحيا وأموت.',
@@ -10,3 +11,4 @@ final List<String> elementsOfRemembrancesAboutSleepingRemembrancesList = [
   'اللّهُمَّ اجعل نومي طاعة لي، واستيقاظي لعبادتك وذكرك.',
   'اللّهُمَّ اجعل نومي مريحًا، وارزقني خير ما بعده عند الاستيقاظ، ووفقني لكل خير.',
 ];
+*/

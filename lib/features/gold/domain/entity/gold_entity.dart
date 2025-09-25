@@ -1,3 +1,4 @@
+/*
 class GoldEntity {
   final num priceGoldCarat24;
   final num priceGoldCarat22;
@@ -18,3 +19,4 @@ class GoldEntity {
     required this.priceGoldCarat10,
   });
 }
+*/

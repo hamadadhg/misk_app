@@ -1,3 +1,4 @@
+/*
 import 'package:dartz/dartz.dart';
 import 'package:misk/core/errors/failures.dart';
 import 'package:misk/core/utils/generic_use_case/generic_use_case_without_parameters.dart';
@@ -12,3 +13,4 @@ class SilverUseCase implements GenericUseCaseWithoutParameters<SilverEntity> {
     return await silverRepositories.fetchCalculateSilverZakat();
   }
 }
+*/

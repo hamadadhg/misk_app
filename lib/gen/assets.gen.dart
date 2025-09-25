@@ -1,3 +1,4 @@
+/*
 // dart format width=80
 
 /// GENERATED CODE - DO NOT MODIFY BY HAND
@@ -380,3 +381,4 @@ class SvgGenImage {
 
   String get keyName => _assetName;
 }
+*/

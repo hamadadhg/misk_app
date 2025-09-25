@@ -1,3 +1,4 @@
+/*
 import 'package:flutter/widgets.dart';
 
 abstract class SymmetricPaddingWithoutChild {
@@ -21,3 +22,4 @@ abstract class SymmetricPaddingWithoutChild {
     return EdgeInsets.symmetric(horizontal: width * 0.074);
   }
 }
+*/

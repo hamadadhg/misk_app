@@ -1,3 +1,4 @@
+/*
 import 'package:flutter/material.dart';
 import 'package:misk/features/hadith/presentation/views/widgets/custom_hadith_view_body.dart';
 
@@ -9,3 +10,4 @@ class HadithView extends StatelessWidget {
     return const Scaffold(body: CustomHadithViewBody());
   }
 }
+*/

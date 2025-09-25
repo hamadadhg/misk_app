@@ -1,3 +1,4 @@
+/*
 // dart format width=80
 /// GENERATED CODE - DO NOT MODIFY BY HAND
 /// *****************************************************
@@ -14,3 +15,4 @@ class FontFamily {
   /// Font family: Noto Sans Arabic
   static const String notoSansArabic = 'Noto Sans Arabic';
 }
+*/

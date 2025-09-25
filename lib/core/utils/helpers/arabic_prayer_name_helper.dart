@@ -1,3 +1,4 @@
+/*
 import 'package:adhan/adhan.dart';
 
 String arabicPrayerNameHelper(Prayer? prayer) {
@@ -18,3 +19,4 @@ String arabicPrayerNameHelper(Prayer? prayer) {
       return '';
   }
 }
+*/

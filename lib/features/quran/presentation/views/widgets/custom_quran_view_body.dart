@@ -1,3 +1,4 @@
+/*
 import 'package:flutter/material.dart';
 import 'package:misk/features/quran/presentation/views/widgets/custom_generate_ayahs_text_quran_view.dart';
 import 'package:misk/features/quran/presentation/views/widgets/custom_sliver_fill_remaining_quran_view.dart';
@@ -29,3 +30,4 @@ class _CustomQuranViewBodyState extends State<CustomQuranViewBody> {
     );
   }
 }
+*/
