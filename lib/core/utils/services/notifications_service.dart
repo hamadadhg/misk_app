@@ -2,6 +2,7 @@ import 'package:adhan/adhan.dart';
 import 'package:flutter/services.dart';
 import 'package:misk/core/utils/constants/strings_variables_constant.dart';
 import 'package:misk/core/utils/helpers/prayer_times_and_content_the_notification_helper.dart';
+import 'package:misk/core/utils/helpers/schedule_prayer_notification_helper.dart';
 
 abstract class NotificationsService {
   static const platform = MethodChannel(kBridgeBetweenFlutterAndAndroid);
@@ -12,14 +13,12 @@ abstract class NotificationsService {
     final prayerTimeAndNotification =
         prayerTimesAndContentTheNotificationHelper(prayerTimes: prayerTime);
     for (var elements in prayerTimeAndNotification) {
-      await platform.invokeMethod(kScheduleNotifications, {
-        'id': elements['id'],
-        'title': elements['title'],
-        'body': elements['body'],
-        'time': elements['time'],
-      });
-      //invokeMethod(it's send the notification to android, and you should give to it key name like in MethodChannel)
-      //so: platform → the connection bridge, invokeMethod → actually send data to Android to schedule alarms.
+      await schedulePrayerNotificationHelper(
+        id: elements['id'],
+        title: elements['title'],
+        body: elements['body'],
+        time: DateTime.fromMillisecondsSinceEpoch(elements['time']),
+      );
     }
   }
 }
