@@ -25,7 +25,7 @@ Future<void> schedulePrayerNotificationHelper({
     title,
     body,
     tz.TZDateTime.from(time, tz.local),
-    ////schedule time in tz not in DateTime, the package need this time
+    //schedule time in tz not in DateTime, the package need this time
     notificationDetails, //notification details
     androidScheduleMode:
         AndroidScheduleMode.exactAllowWhileIdle, //required in version +17
